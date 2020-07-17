@@ -1,8 +1,8 @@
 <?php
 //Block 1
-$servername = "localhost";
-$username = "Matthew";
-$password = "Matt2702";
+$servername = "****";
+$username = "****";
+$password = "****";
 $dbname = "coviddatacollection";
 $table = "survey";
 
