@@ -1,5 +1,5 @@
 <?php
-    $conn=mysqli_connect("localhost","Matthew","Matt2702","coviddatacollection");
+    $conn=mysqli_connect("****","****","****","coviddatacollection");
     // Check connection
     if (mysqli_connect_errno())
     {
