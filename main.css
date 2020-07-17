@@ -1,0 +1,54 @@
+#border {
+    border-bottom: 2px solid black;
+}
+
+
+h1, h2, h3, h4, h5, h6, a, b, p, #center{
+    text-align: center;
+}
+
+#margin{
+margin-top: 0px;
+margin-bottom: 0px;
+margin-right: 60px;
+margin-left: 60px;
+}
+
+#surveyinput{
+    width: 100%;
+    padding: 12px 20px;
+    display: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: left;
+}
+
+#surveyinputradio{
+    width: 100%;
+    padding: 12px 20px;
+    display: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+table {
+    width:100%;
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 15px;
+    text-align: left;
+  }
+  #t01 tr:nth-child(even) {
+    background-color: #eee;
+  }
+  #t01 tr:nth-child(odd) {
+   background-color: #fff;
+  }
+  #t01 th {
+    background-color: black;
+    color: white;
+}
