@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
-$username = "Matthew";
-$password = "Matt2702";
-$db = "test";
+$servername = "****";
+$username = "****";
+$password = "****";
+$db = "coviddatacollection";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $db);
@@ -17,6 +17,6 @@ echo htmlspecialchars($_POST['positive']);
 
 $test = mysql_real_escape_string($_POST['positive']);
 
-$query = "INSERT INTO syrvey (`positive`) VALUES ('".$test."')";
+$query = "INSERT INTO syrvey (`positive`) VALUES ('".$coviddatacollection."')";
 
 ?>
